@@ -341,14 +341,11 @@ i {
 
 }
 
-.worldmap-item {
-	height: 15px;
-	position: absolute;
-	}
-
 #worldmap-item-station {
 	top: 115px;
 	left: 520px;
+  height: 15px;
+	position: absolute;
 	}
 	
 #worldmap-item-princeton {
@@ -356,3 +353,20 @@ i {
 	left: 440px;
 	}
 
+  .location {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    background-color:#f8f8f8;
+    padding: 5px 0px 5px 0px;
+    column-gap: 25px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    width: 900px;
+  }
+
+  .legend {
+    text-align: center;
+    margin-bottom: 45px;
+  }
