@@ -1,0 +1,358 @@
+body {
+    background-color:#f8f8f8 ;
+    margin:auto 0px;
+  }
+
+.site-logo {
+  float: left;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.pma-logo {
+    height:32px;
+}
+
+/*.searchbar {
+  float: right;
+ width: 300px;
+ height:25px;
+  border-radius: 15px;
+  border: 1px solid #000000;
+  background-color:#f8f8f8 ;
+margin: auto;
+margin-right: 25px;
+}*/
+
+.searchbar {
+float: right;
+margin-left: 10px;
+margin-right: 25px;
+
+}
+
+.search-container input[type=text] {
+  float: right;
+  min-width: 250px;
+  max-width: 600px;
+  height:25px;
+   border-radius: 15px;
+   border: 1px solid #000000;
+   background-color:#f8f8f8 ;
+  margin-top: 13px;
+  padding-left: 15px;
+}
+
+.site-header{
+    display:flex;
+    background-color: #F8F8F8;
+    font-size: 20px;
+     font-family: "degular-mono", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+
+    position:fixed;
+    width: 100%;
+    min-width: 900px;
+    line-height: 55px;
+    height:55px;
+    overflow: hidden;
+    z-index:999;
+}
+
+.site-nav {
+  overflow: hidden;
+}
+
+.sections {
+  display: flex;
+  justify-content: center;
+  right: 0;
+  margin-left: auto;
+  padding-right: 15px;
+}
+
+.section-name {
+  padding-right: 25px;
+}
+
+.sections a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .sections a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .sections a:hover {
+    color: rgb(127, 140, 127);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+#header-padding {
+  height: 70px;
+}
+
+.root-wrapper {
+   /* border: 1px solid black ;
+    border-radius: 2%;*/
+   /* font-family: "akzidenz-grotesk-next-conden", sans-serif;*/
+    
+    top: 200px;
+    background: #f8f8f8;
+    height:100%;
+    width: 1000px;
+    overflow: auto;
+    margin: 0 auto;
+    font-family: "degular-mono", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 20px;
+
+
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+
+.subtitle {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.blurb {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 1em;
+    line-height: 3px;
+    margin-top: 60px;
+}
+
+.primary-statement {
+  font-family: "DEGULAR-mono", sans-serif;
+  font-size: 50px;
+line-height: 45px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 30px;
+padding-bottom: 25px;
+margin: 0%;
+}
+
+.secondary-statement {
+margin-bottom: 40px;
+}
+
+.book-now {
+    text-align: left;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background-color:#f8f8f8;
+    padding: 0px 30px 0px 30px;
+    margin-bottom: 15PX;
+  }
+
+.review-profile {
+  display: grid;
+  grid-template-columns: 150px 650px;
+  column-gap: 15px;
+  overflow: hidden;
+  max-width:850px;
+  border-radius: 15px;
+  border: 2px solid #000000;
+  background-color:#f8f8f8 ;
+  padding: 5px 20px 5px 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  }
+
+.recent-reviews {
+  display: grid;
+  grid-template-columns:300px 300px 300px;
+  column-gap: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  margin: auto 0px;
+  align-items: top;
+}
+
+.showcase-item {
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 2px solid #000000;
+  background-color:#f8f8f8;
+  padding: 5px 30px 5px 30px;
+}
+
+.article {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 2px solid #000000;
+  background-color:#f8f8f8;
+  padding: 5px 30px 5px 30px;
+  column-gap: 25px;
+  overflow: hidden;
+  margin-bottom: 30px;
+
+}
+
+.category {
+  display: grid;
+  grid-template-columns:250px 250px 250px;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 2px solid #000000;
+  background-color:#f8f8f8;
+  padding: 25px;
+  column-gap: 55px;
+  overflow: hidden;
+  margin-bottom: 30px;
+
+}
+
+.checked {
+  color: rgb(247, 181, 38);
+}
+
+.review-desc {
+  line-height: 10px;
+  font-size: 15px;
+}
+
+.photocredit {
+  font-size: 12px;
+  margin-top: 1px;
+}
+
+
+.review-list a:link {
+  color: rgb(27, 113, 23);
+  background-color: transparent;
+  text-decoration: none;
+}
+.review-list a:visited {
+  color: rgb(41, 168, 90);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.review-list a:hover {
+  color: rgb(127, 140, 127);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.recent-reviews a:link {
+  color: rgb(27, 113, 23);
+  background-color: transparent;
+  text-decoration: none;
+}
+.recent-reviews a:visited {
+  color: rgb(41, 168, 90);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.recent-reviews a:hover {
+  color: rgb(127, 140, 127);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.lead a:link {
+  color: rgb(27, 113, 23);
+  background-color: transparent;
+  text-decoration: none;
+}
+.lead a:visited {
+  color: rgb(41, 168, 90);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.lead a:hover {
+  color: rgb(127, 140, 127);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.reviewers a:link {
+  color: rgb(27, 113, 23);
+  background-color: transparent;
+  text-decoration: none;
+}
+.reviewers a:visited {
+  color: rgb(41, 168, 90);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.reviewers a:hover {
+  color: rgb(127, 140, 127);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+i {
+  color: rgb(27, 113, 23);
+}
+
+.map {
+  /*border-radius: 15px;
+  border: 2px solid #000000;*/
+
+  width: 850px;
+	height: 600px;
+	background: url(images/map.svg) no-repeat;
+	background-size: 850px 600px;
+
+  overflow: hidden;
+  max-width:850px;
+  background-position: center;
+  background-color:#f8f8f8 ;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px auto;
+
+   position: relative; /*needed for positioning the icons */
+
+}
+
+.worldmap-item {
+	height: 15px;
+	position: absolute;
+	}
+
+#worldmap-item-station {
+	top: 115px;
+	left: 520px;
+	}
+	
+#worldmap-item-princeton {
+	top: 200px;
+	left: 440px;
+	}
+
