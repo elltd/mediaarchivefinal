@@ -338,15 +338,21 @@ i {
   margin: 0px auto;
 
    position: relative; /*needed for positioning the icons */
-
 }
+
+/* ICON LOCATIONS ON THE MAP */
 
 #worldmap-item-station {
 	top: 115px;
 	left: 520px;
 	position: absolute;
-  
 	}
+
+  #worldmap-item-pway {
+    top: 228px;
+    left: 490px;
+    position: absolute;
+    }
 	
 #worldmap-item-princeton {
 	top: 262px;
@@ -358,7 +364,7 @@ i {
 	top: 255px;
 	left: 440px;
     position: absolute;
-    }
+  }
 
   .location {
     display: grid;
