@@ -366,6 +366,24 @@ i {
     position: absolute;
   }
 
+  #worldmap-item-douglass {
+    top: 237px;
+    left: 497px;
+    position: absolute;
+    }
+
+    #worldmap-item-bn {
+      top: 251px;
+      left: 549px;
+      position: absolute;
+      }
+
+      #worldmap-item-goodwill {
+        top: 214px;
+        left: 470px;
+        position: absolute;
+        }
+
   .location {
     display: grid;
     grid-template-columns: 280px 550px;
