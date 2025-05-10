@@ -372,6 +372,7 @@ i {
     overflow: hidden;
     margin-bottom: 30px;
     width: 900px;
+    align-items: center;
   }
 
   .legend {
@@ -398,12 +399,12 @@ i {
   background-color:#F8F8F8;
   color: #000000;
   text-align: center;
-  padding: 2px 0;
+  padding: 10px 10px;
   border-radius: 20px;
   border: 2px solid #000000;
   font-size: 18px;
   font-family: "degular-mono", sans-serif;
- 
+ overflow:hidden;
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
