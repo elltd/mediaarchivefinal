@@ -163,13 +163,24 @@ margin-bottom: 40px;
 }
 
 .book-now {
+  display: grid;
+  grid-template-columns: 100px 500px;
+  column-gap: 45px;
     text-align: left;
+    max-width: 800px;
     margin: 0 auto;
     border-radius: 20px;
     border: 1px solid #000000;
     background-color:#f8f8f8;
     padding: 0px 30px 0px 30px;
     margin-bottom: 15PX;
+    overflow: hidden;
+  }
+
+  .progress-header {
+    font-weight: bold;
+    font-size: 17px;
+    
   }
 
 .review-profile {
@@ -251,9 +262,10 @@ margin-bottom: 40px;
   color: rgb(27, 113, 23);
   background-color: transparent;
   text-decoration: none;
+  font-weight: bold;
 }
 .review-list a:visited {
-  color: rgb(41, 168, 90);
+  color: rgb(51, 180, 126);
   background-color: transparent;
   text-decoration: none;
 }
@@ -268,6 +280,7 @@ margin-bottom: 40px;
   color: rgb(27, 113, 23);
   background-color: transparent;
   text-decoration: none;
+  font-weight: bold;
 }
 .recent-reviews a:visited {
   color: rgb(41, 168, 90);
@@ -285,6 +298,7 @@ margin-bottom: 40px;
   color: rgb(27, 113, 23);
   background-color: transparent;
   text-decoration: none;
+  font-weight: bold;
 }
 .lead a:visited {
   color: rgb(41, 168, 90);
@@ -302,6 +316,7 @@ margin-bottom: 40px;
   color: rgb(27, 113, 23);
   background-color: transparent;
   text-decoration: none;
+  font-weight: bold;
 }
 .reviewers a:visited {
   color: rgb(41, 168, 90);
