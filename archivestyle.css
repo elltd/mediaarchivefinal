@@ -143,8 +143,28 @@ footer {
     padding-right: 15px;
     text-align: center;
     font-size: 1em;
-    line-height: 3px;
+    line-height: 15px;
     margin-top: 60px;
+    
+
+}
+
+.footer-style a:link {
+  color: rgb(27, 113, 23);
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-style a:visited {
+  color: rgb(51, 180, 126);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.footer-style a:hover {
+  color: rgb(127, 140, 127);
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .primary-statement {
@@ -329,6 +349,8 @@ margin-bottom: 40px;
   background-color: transparent;
   text-decoration: none;
 }
+
+
 
 i {
   color: rgb(27, 113, 23);
